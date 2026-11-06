@@ -1,0 +1,12 @@
+node_modules/
+.venv/
+dist/
+__pycache__/
+data/
+output/
+.playwright-cli/
+*.lnk
+.env
+.env.*
+tests/extension-config.json
+.DS_Store

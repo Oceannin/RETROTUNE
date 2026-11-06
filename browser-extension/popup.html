@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="utf-8" /><title>RETROTUNE</title
+  ><link rel="stylesheet" href="popup.css" />
+  <header>
+    <img src="icon128.png" width="36" height="36" alt="" />
+    <h1>RETROTUNE</h1>
+  </header>
+  <p data-key="intro">This tab → your OBS music widget.</p>
+  <label
+    ><span data-key="keyLabel">Pairing key from Editor → Sources</span
+    ><input
+      id="token"
+      type="password"
+      autocomplete="off"
+      aria-label="Pairing key" /></label
+  ><button id="connect" data-key="connect">Connect this tab</button
+  ><button id="disconnect" data-key="disconnect">Disconnect tab</button>
+  <div id="status" role="status"></div>
+  <p data-key="hint">
+    Reconnect after reloading the page. Embedded iframe players are not
+    supported.
+  </p>
+  <a href="http://127.0.0.1:47832" target="_blank" data-key="editor"
+    >Open editor ↗</a
+  >
+  <p class="footer" data-key="local">
+    Your pairing key stays on this computer.
+  </p>
+  <script src="popup.js"></script>
+</html>

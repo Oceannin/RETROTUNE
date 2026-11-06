@@ -1,0 +1,32 @@
+name: Player compatibility
+description: A player is missing or does not expose the expected metadata.
+title: '[Player] '
+body:
+  - type: input
+    id: player
+    attributes:
+      label: Player / website
+      placeholder: Name and version, or the public music website
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Windows / OBS / browser versions
+    validations:
+      required: true
+  - type: dropdown
+    id: connection
+    attributes:
+      label: Connection method
+      options:
+        - Windows media session
+        - Browser extension
+        - Custom API adapter
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What is missing, and what did you expect?
+      description: Please do not include pairing keys, private URLs or personal data.
+    validations:
+      required: true
