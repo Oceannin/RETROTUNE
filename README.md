@@ -2,7 +2,7 @@
 <h1 align="center">RETROTUNE</h1>
 <p align="center"><b>Your stream. Your music. A little nostalgia.</b></p>
 <p align="center">A customizable, retro-inspired now-playing widget for OBS on Windows.</p>
-<p align="center"><a href="https://github.com/Oceannin/RETROTUNE/releases/latest">Download the preview</a> · <a href="#get-it-on-your-stream">Setup</a> · <a href="README.ru.md">Русский</a> · <a href="docs/CASE-STUDY.md">Behind the design</a></p>
+<p align="center"><a href="https://github.com/Oceannin/RETROTUNE/releases/tag/v0.2.0">Download the preview</a> · <a href="#get-it-on-your-stream">Setup</a> · <a href="README.ru.md">Русский</a> · <a href="docs/CASE-STUDY.md">Behind the design</a></p>
 <p align="center"><img alt="Windows" src="https://img.shields.io/badge/Windows-10%20%2F%2011-8b79c9?style=flat-square"> <img alt="OBS Browser Source" src="https://img.shields.io/badge/OBS-Browser%20Source-454052?style=flat-square"> <img alt="Languages" src="https://img.shields.io/badge/Languages-EN%20%2F%20RU-a78bc9?style=flat-square"> <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-5f917d?style=flat-square"></a></p>
 
 ![RETROTUNE: a retro window, album art and a spinning CD for your OBS scene](docs/images/cover.png)
@@ -48,7 +48,7 @@ Screenshots use the editor's **demo track**, not a connected music account. Demo
 
 **This is a Windows preview source bundle, not a standalone installer.** You need [Python 3.12 x64](https://www.python.org/downloads/windows/), [Node.js 22 LTS](https://nodejs.org/) and OBS Studio with Browser Source. Python 3.12 is the verified runtime; Node is needed for setup/build, not for each launch.
 
-1. Download **`retrotune-v0.2.0.zip`** from [Releases](https://github.com/Oceannin/RETROTUNE/releases/latest) and extract it to a permanent folder.
+1. Download **`retrotune-v0.2.0.zip`** from [Releases](https://github.com/Oceannin/RETROTUNE/releases/tag/v0.2.0) and extract it to a permanent folder.
 2. Run **`Setup RETROTUNE.cmd`** once. Then run **`Start RETROTUNE.cmd`** to open the editor. Use `Create-Desktop-Shortcut.ps1` if you want a desktop shortcut with the custom icon.
 3. Play some music, open **Sources**, and pick a session. Or connect a browser tab using the included extension.
 4. In OBS, add a **Browser Source**: URL **`http://127.0.0.1:47832/overlay`**, width **1280**, height **720**. The unused area is transparent; set the widget's actual size in the editor and crop/position the source in OBS.

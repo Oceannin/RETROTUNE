@@ -60,4 +60,4 @@ Potential next steps are a standalone Windows distribution, broader real-player 
 
 ## Try it in your scene
 
-[Download the preview](https://github.com/Oceannin/RETROTUNE/releases/latest) · [Setup guide](../README.md#get-it-on-your-stream) · [Report a player compatibility issue](https://github.com/Oceannin/RETROTUNE/issues/new/choose)
+[Download the preview](https://github.com/Oceannin/RETROTUNE/releases/tag/v0.2.0) · [Setup guide](../README.md#get-it-on-your-stream) · [Report a player compatibility issue](https://github.com/Oceannin/RETROTUNE/issues/new/choose)

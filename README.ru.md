@@ -2,7 +2,7 @@
 <h1 align="center">RETROTUNE</h1>
 <p align="center"><b>Твой стрим. Твоя музыка. Немного ностальгии.</b></p>
 <p align="center">Музыкальный виджет для OBS в стиле классического рабочего стола.</p>
-<p align="center"><a href="https://github.com/Oceannin/RETROTUNE/releases/latest">Скачать превью</a> · <a href="README.md">English</a> · <a href="docs/CASE-STUDY.md">Кейс проекта</a></p>
+<p align="center"><a href="https://github.com/Oceannin/RETROTUNE/releases/tag/v0.2.0">Скачать превью</a> · <a href="README.md">English</a> · <a href="docs/CASE-STUDY.md">Кейс проекта</a></p>
 
 ![RETROTUNE: ретроокно, обложка и CD для стрима](docs/images/cover.png)
 
@@ -28,7 +28,7 @@
 
 Это **предварительная версия для Windows в виде исходников и собранного интерфейса**, а не автономный EXE-установщик. Нужны Python 3.12 x64, Node.js 22 LTS и OBS Studio с источником «Браузер». Node нужен для первоначальной сборки.
 
-1. Скачай `retrotune-v0.2.0.zip` из [Releases](https://github.com/Oceannin/RETROTUNE/releases/latest), распакуй в постоянную папку.
+1. Скачай `retrotune-v0.2.0.zip` из [Releases](https://github.com/Oceannin/RETROTUNE/releases/tag/v0.2.0), распакуй в постоянную папку.
 2. Запусти `Setup RETROTUNE.cmd`, затем `Start RETROTUNE.cmd`.
 3. Включи музыку и выбери источник во вкладке «Источники». Для точной вкладки используй расширение из папки `browser-extension`.
 4. Добавь в OBS «Браузер»: `http://127.0.0.1:47832/overlay`, размер **1280 × 720**. Свободная область прозрачна. Размер виджета меняется в редакторе.
